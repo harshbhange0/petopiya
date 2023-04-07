@@ -5,10 +5,6 @@
     --insta-icon-shadow:#ff593f77;
 }
 
-body{
-  background: linear-gradient(60deg, #f7d6d6 10%, #f7eacf 40%, #efffc9 70%, #c7f4da 100%  );
-
-}
 .linkedin-icon-shadow:hover{
     transition: .3s ease-in-out;
 -webkit-filter: drop-shadow(0 0 0.45rem var(--linkedin-icon-shadow));
@@ -41,4 +37,8 @@ body{
 }
 .row .card a img{
   width: 30px;
+}
+.card-img-top{
+  max-width: 100%;
+  height: auto;
 }

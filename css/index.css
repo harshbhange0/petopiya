@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&family=Poppins:wght@200&display=swap');
+body{
+    background-color: #fafafa;
+}
+nav{
+    background-color: #fafafa;   
+}
+#home-head-carousel img{
+    height: 1130px !important;
+}
+.highlite-header-text{
+    font-size: 50px !important;
+    font-family: 'Fredoka', sans-serif;
+}
+.highlite-text-container{
+ background-image: url(../image/homepage-img/imageedit_3_2637177959.png);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ opacity: .75;
+}
+.spaciality-text{
+    font-size: 70px !important;
+    font-family: 'Fredoka', sans-serif;
+}
+.spaciality-holder img{
+    width: 200px;
+}
+.icon-zoom{
+    transition: transform .2s ease-in-out;
+}
+.icon-zoom:hover{
+    transform: scale(1.2);
+}
+.media-container{
+    display: block;
+    width: 250px !important;
+}
