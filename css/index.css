@@ -36,3 +36,40 @@ nav{
     display: block;
     width: 250px !important;
 }
+.media-container-img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+@media (max-width: 576px){
+  .highlite-header-text{
+    font-size: 30px !important;
+  } 
+  .spaciality-text{
+    font-size: 25px !important;
+  } 
+  .highlite-paragraph{
+   font-size: 16px !important;
+  }
+  .highlite-hrader-img{
+    width: 200px !important;
+    margin: auto !important;
+  }
+  .location-info-head-img{
+    width: 40px;
+    margin: 0 10px !important;
+  }
+  .location-info-head{
+    margin: 0 10px !important;
+
+    }
+    .location-info-footer-img{
+     width: 40px !important;   
+    }
+    .media-container-img{
+        max-width: 100%;
+        height: auto;
+    }
+}
