@@ -3,8 +3,13 @@
     padding: 0;
 }
 body{
-   background-color: #F6F1E9;
+    background-color: #fafafa;
    
+   
+}
+nav{
+    background-color: #fafafa;
+
 }
 .container{
     margin-top: 8%;
