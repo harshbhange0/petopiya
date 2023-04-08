@@ -12,6 +12,7 @@
     crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./../css/index.css">
     <link rel="stylesheet" href="./../css/getfood.css">
+    <script src="./getfood.js"></script>
 
 </head>
 <body>
@@ -140,8 +141,8 @@
                         <p class="card-text text-center">Henlo Baked Dry Food for Puppies | 100% human-grade ingredients
                         </p>
                         <div class="addbttn-conaiter">
-                            <button class="btn btn-warning fw-bold">-</button>
-                            <h5>1</h5><button class="btn btn-warning ">+</button>
+                            <button class="btn btn-warning fw-bold" onclick="dec1()">-</button>
+                            <h5 id="product-quantity_1">1</h5><button class="btn btn-warning  " onclick="inc1()">+</button>
                         </div>
                         <a href="#" class="btn btn-warning d-grid gap-2  mx-auto">ADD to Bag</a>
                     </div>
@@ -158,8 +159,8 @@
                         <p class="card-text text-center">Royal Canin Maxi Puppy Dry Food
                         </p>
                         <div class="addbttn-conaiter">
-                            <button class="btn btn-warning fw-bold">-</button>
-                            <h5>1</h5><button class="btn btn-warning ">+</button>
+                            <button class="btn btn-warning fw-bold"onclick="dec2()">-</button>
+                            <h5 id="product-quantity_2">1</h5><button class="btn btn-warning " onclick="inc2()">+</button>
                         </div>
                         <a href="#" class="btn btn-warning d-grid gap-2  mx-auto">ADD to Bag</a>
                     </div>
@@ -177,8 +178,8 @@
                         <p class="card-text text-center">Pedigree Chicken & Vegetables Adult Dog Dry Food
                         </p>
                         <div class="addbttn-conaiter">
-                            <button class="btn btn-warning ">0</button>
-                            <h5>1</h5><button class="btn btn-warning ">+</button>
+                            <button class="btn btn-warning " onclick="dec3()">-</button>
+                            <h5 id="product-quantity_3">1</h5><button class="btn btn-warning "onclick="inc3()">+</button>
                         </div>
                         <a href="#" class="btn btn-warning d-grid gap-2  mx-auto">ADD to Bag</a>
                     </div>
@@ -196,8 +197,8 @@
                         <p class="card-text text-center">Farmina N&D Pumpkin Lamb & Blueberry Maxi Dog Dry Food
                         </p>
                         <div class="addbttn-conaiter">
-                            <button class="btn btn-warning fw-bold">-</button>
-                            <h5>1</h5><button class="btn btn-warning ">+</button>
+                            <button class="btn btn-warning fw-bold" onclick="dec4()">-</button>
+                            <h5 id="product-quantity_4">1</h5><button class="btn btn-warning "onclick="inc4()">+</button>
                         </div>
                         <a href="#" class="btn btn-warning d-grid gap-2  mx-auto">ADD to Bag</a>
                     </div>
