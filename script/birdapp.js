@@ -23,8 +23,8 @@ const birdNameArray = [
     "Great Horned Owl",
     "hummingbird",
     "kingfisher",
-    "Mallard Duck",
     "Northern Mocking bird",
+    "Mallard Duck",
     "parrot",
     "Peregrine Falcon",
     "Piping Plover",
@@ -49,7 +49,7 @@ const imgSrcArray = [
   "bird-img11",
   "bird-img12",
 ];
-const toIdNameArray = [
+const txtIdNameArray = [
   "bird-txt1",
   "bird-txt2",
   "bird-txt3",
@@ -74,7 +74,7 @@ function randomImg() {
         let imgId = imgSrcArray[i];
         let imgPath = birdImagesArray[randomNumber];
 
-        let imgName =toIdNameArray[i] 
+        let imgName =txtIdNameArray[i] 
         let imgNameTo =birdNameArray[randomNumber]
        
         document.getElementById(imgId).src = imgPath;
@@ -82,6 +82,7 @@ function randomImg() {
 
 
         birdImagesArray.splice(randomNumber,1)
+        birdNameArray.splice(randomNumber,1)
 
 }
   
