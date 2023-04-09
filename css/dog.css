@@ -1,0 +1,21 @@
+#dog-head-carousel img{
+  max-width: 80%;
+  height: 50% !important;
+  width: 80% !important;
+}
+.card{
+    max-width: 90% !important;
+    max-height: 100% !important;
+    overflow: hidden !important;
+}
+.card-img-top {
+    transition: all 1.5s ease;
+}
+.card-img-top:hover {
+    transform: scale(1.2);
+}
+@media (max-width: 900px){
+.card{
+    margin:  3rem auto;
+}
+}
