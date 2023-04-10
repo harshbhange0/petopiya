@@ -25,20 +25,35 @@
 -webkit-filter: drop-shadow(0 0 0.45rem var(--insta-icon-shadow));
   filter: drop-shadow(0 0 0.45rem var(--insta-icon-shadow));
 }
+.card .card-img-top{
+  object-fit: cover !important;
+  width: 275px !important;
+  height: 280px !important;
+}
+card-body{
+  overflow: hidden;
+}
 .row .card{
-    transition: transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
+  overflow: hidden;
+  width: 100% !important;
 }
 .row .card,
 .icon-zoom:hover{
-    transform: scale(1.2);
+  transform: scale(1.09);
 }
-.row .card a{
-  text-decoration: none;
+a img{
+  width: 35px;
 }
-.row .card a img{
-  width: 30px;
+h5{
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-.card-img-top{
-  max-width: 100%;
-  height: auto;
+@media (max-width: 900px){
+  .card  .card-img-top{
+    margin: auto;
+    width: 100% !important;
+    height: 100% !important;
+
+}
 }
