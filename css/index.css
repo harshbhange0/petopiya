@@ -51,6 +51,12 @@ nav{
     color: white;
 }
 
+footer li {
+    list-style: none;
+}
+footer li :hover{
+    color: rgb(248, 179, 89);
+}
 
 @media (max-width: 576px){
   .highlite-header-text{
