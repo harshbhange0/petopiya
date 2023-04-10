@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&family=Poppins:wght@200&display=swap');
+
 body{
-    background-color: #fafafa;
+    background-color: #f8f8fb;
 }
 nav{
-    background-color: #fafafa;   
+    background-color: #f8f8fb;   
 }
 #home-head-carousel img{
     height: 1130px !important;
@@ -56,6 +57,19 @@ footer li {
 }
 footer li :hover{
     color: rgb(248, 179, 89);
+}
+
+.bird-container .card-img-top{
+    object-fit: cover !important;
+   width: 100% !important;
+    height: 230px !important;
+
+}
+.cat-container .card-img-top{
+    object-fit: cover !important;
+   width: 100% !important;
+    height: 230px !important;
+
 }
 
 @media (max-width: 576px){
