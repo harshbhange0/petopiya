@@ -26,8 +26,9 @@ nav{
 }
 .addbttn-conaiter{
     display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 10px;
+    justify-content: space-evenly ;
+    margin-bottom: 15px;
+    
 }
 .card{
     height: 450px;
