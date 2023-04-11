@@ -1,108 +1,284 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&family=Poppins:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@600&family=Poppins:wght@200&display=swap");
 
-body{
-    background-color: #f8f8fb;
+body {
+  background-color: #f8f8fb;
 }
-nav{
-    background-color: #f8f8fb;   
+nav {
+  background-color: #f8f8fb;
 }
-#home-head-carousel img{
-    height: 1130px !important;
+#home-head-carousel img {
+  height: 1130px !important;
 }
-.highlite-header-text{
-    font-size: 50px !important;
-    font-family: 'Fredoka', sans-serif;
+.highlite-header-text {
+  font-size: 50px !important;
+  font-family: "Fredoka", sans-serif;
 }
-.headerfont{
-    font-family: 'Fredoka', sans-serif; 
-    font-size: 60px !important;
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@600&family=Poppins:wght@200&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.highlite-text-container{
- background-image: url(../image/homepage-img/imageedit_3_2637177959.png);
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
- opacity: .75;
-}
-.spaciality-text{
-    font-size: 70px !important;
-    font-family: 'Fredoka', sans-serif;
-}
-.spaciality-holder img{
-    width: 200px;
-}
-.icon-zoom{
-    transition: transform .2s ease-in-out;
-}
-.icon-zoom:hover{
-    transform: scale(1.2);
-}
-.media-container{
-    display: block;
-    width: 250px !important;
-}
-.media-container-img{
-    max-width: 100%;
-    height: auto;
+:root {
+  --color: #6a6a6a;
+  --body-background-color: #f8f8fb;
+  --nav-background-color: #f8f8fb;
+  --normal-font: 100;
+  --btn-background: #8a8a8a;
+  --btn-color: #454545;
+  --highlite-text-container-img: url(../image/homepage-img/imageedit_3_2637177959.png);
 }
 
+.dark {
+  --color: #ffffff;
+  --body-background-color: #576e90;
+  --nav-background-color: #395a8a;
+  --normal-font: bold;
+  --btn-background: #ffff;
+  --card-text-color: #454545;
+  --text-shadow-color: #000000;
+  --highlite-text-container-img: url() !important;
+  transition: all 1.5s ease;
+}
+.card .card-body h4 {
+  color: var(--card-text-color) !important;
+}
+.card .card-body h5,
+.card-text {
+  color: var(--card-text-color) !important;
+}
+span,
+li,
+nav,
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 button,
+a {
+  color: var(--color) !important;
+  font-weight: var(--normal-font);
+  text-shadow: 0 0 0.5px var(--text-shadow-color);
+}
+.search-btn {
+  background-color: var(--btn-background) !important;
+  color: var(--body-background-color) !important;
+}
+body {
+  background-color: var(--body-background-color) !important ;
+}
+nav {
+  background-color: var(--nav-background-color) !important;
+}
+input {
+  background-color: var(--body-background-color);
+  color: var(--btn-color) !important;
+}
+.highlite-holder h2,
+p,
+a {
+  color: var(--color) !important ;
+}
+.home-page-dispaly-pets-img-conntainer {
+  background-color: #f8f8fb;
+  width: 20rem;
+  height: 17rem;
+  border-radius: 10px;
+  margin: 5px;
+}
 
-.dark{
-    background-color: #333333;
-    color: white;
+#home-head-carousel img {
+  height: 1130px !important;
+}
+.highlite-header-text {
+  font-size: 50px !important;
+  font-family: "Fredoka", sans-serif;
+}
+.headerfont {
+  font-family: "Fredoka", sans-serif;
+  font-size: 60px !important;
+}
+.highlite-text-container {
+  background-image: var(--highlite-text-container-img) !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.75;
+}
+.spaciality-text {
+  font-size: 70px !important;
+  font-family: "Fredoka", sans-serif;
+}
+.spaciality-holder img {
+  width: 200px;
+}
+.icon-zoom {
+  transition: transform 0.2s ease-in-out;
+}
+.icon-zoom:hover {
+  transform: scale(1.2);
+}
+.media-container {
+  display: block;
+  width: 250px !important;
+}
+.media-container-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.dark {
+  background-color: #333333;
+  color: white;
 }
 
 footer li {
-    list-style: none;
+  list-style: none;
 }
-footer li :hover{
-    color: rgb(248, 179, 89);
-}
-
-.bird-container .card-img-top{
-    object-fit: cover !important;
-   width: 100% !important;
-    height: 230px !important;
-
-}
-.cat-container .card-img-top{
-    object-fit: cover !important;
-   width: 100% !important;
-    height: 230px !important;
-
+footer li :hover {
+  color: rgb(248, 179, 89);
 }
 
-@media (max-width: 576px){
-  .highlite-header-text{
+.bird-container .card-img-top {
+  object-fit: cover !important;
+  width: 100% !important;
+  height: 230px !important;
+}
+.cat-container .card-img-top {
+  object-fit: cover !important;
+  width: 100% !important;
+  height: 230px !important;
+}
+
+@media (max-width: 576px) {
+  .highlite-header-text {
     font-size: 30px !important;
-  } 
-  .spaciality-text{
-    font-size: 25px !important;
-  } 
-  .highlite-paragraph{
-   font-size: 16px !important;
   }
-  .highlite-hrader-img{
+  .spaciality-text {
+    font-size: 25px !important;
+  }
+  .highlite-paragraph {
+    font-size: 16px !important;
+  }
+  .highlite-hrader-img {
     width: 200px !important;
     margin: auto !important;
   }
-  .location-info-head-img{
+  .location-info-head-img {
     width: 40px;
     margin: 10px auto !important;
   }
-  .location-info-head{
+  .location-info-head {
     margin: 0 10px !important;
+  }
+  .location-info-footer-img {
+    width: 40px !important;
+  }
+  .media-container-img {
+    max-width: 100%;
+    height: auto;
+  }
+  .headerfont {
+    font-family: "Fredoka", sans-serif;
+    font-size: 30px !important;
+  }
+  .home-page-dispaly-pets-img-conntainer {
+    margin: 0;
+    width: 12rem;
+    height: 7rem;
+    margin: 5px;
+  }
+}
+.headerfont {
+  font-family: "Fredoka", sans-serif;
+  font-size: 60px !important;
+}
+.highlite-text-container {
+  background-image: url(../image/homepage-img/imageedit_3_2637177959.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.75;
+}
+.spaciality-text {
+  font-size: 70px !important;
+  font-family: "Fredoka", sans-serif;
+}
+.spaciality-holder img {
+  width: 200px;
+}
+.icon-zoom {
+  transition: transform 0.2s ease-in-out;
+}
+.icon-zoom:hover {
+  transform: scale(1.2);
+}
+.media-container {
+  display: block;
+  width: 250px !important;
+}
+.media-container-img {
+  max-width: 100%;
+  height: auto;
+}
 
-    }
-    .location-info-footer-img{
-     width: 40px !important;   
-    }
-    .media-container-img{
-        max-width: 100%;
-        height: auto;
-    }
-    .headerfont{
-        font-family: 'Fredoka', sans-serif; 
-        font-size: 30px !important;
-    }
+.dark {
+  background-color: #333333;
+  color: white;
+}
+
+footer li {
+  list-style: none;
+}
+footer li :hover {
+  color: rgb(248, 179, 89);
+}
+
+.bird-container .card-img-top {
+  object-fit: cover !important;
+  width: 100% !important;
+  height: 230px !important;
+}
+.cat-container .card-img-top {
+  object-fit: cover !important;
+  width: 100% !important;
+  height: 230px !important;
+}
+
+@media (max-width: 576px) {
+  .highlite-header-text {
+    font-size: 30px !important;
+  }
+  .spaciality-text {
+    font-size: 25px !important;
+  }
+  .highlite-paragraph {
+    font-size: 16px !important;
+  }
+  .highlite-hrader-img {
+    width: 200px !important;
+    margin: auto !important;
+  }
+  .location-info-head-img {
+    width: 40px;
+    margin: 10px auto !important;
+  }
+  .location-info-head {
+    margin: 0 10px !important;
+  }
+  .location-info-footer-img {
+    width: 40px !important;
+  }
+  .media-container-img {
+    max-width: 100%;
+    height: auto;
+  }
+  .headerfont {
+    font-family: "Fredoka", sans-serif;
+    font-size: 30px !important;
+  }
 }

@@ -13,6 +13,14 @@
 .card-img-top:hover {
     transform: scale(1.2);
 }
+
+.card  h4 {
+    color: var(--card-text-color) !important;
+  }
+  .card  h5,
+  .card-text {
+    color: var(--card-text-color) !important;
+  }
 @media (max-width: 900px){
       .card{
           margin:  3rem auto;

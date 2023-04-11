@@ -4,6 +4,9 @@
     --twitter-icon-shadow:#03a9f477;
     --insta-icon-shadow:#ff593f77;
 }
+.card{
+  overflow: hidden;
+}
 
 .linkedin-icon-shadow:hover{
     transition: .3s ease-in-out;
@@ -27,8 +30,9 @@
 }
 .card .card-img-top{
   object-fit: cover !important;
-  width: 275px !important;
-  height: 280px !important;
+  width: 100% !important;
+  height: 100% !important;
+  overflow: hidden;
 }
 card-body{
   overflow: hidden;
@@ -44,6 +48,9 @@ card-body{
 }
 a img{
   width: 35px;
+}
+.card{
+  width: 18rem;
 }
 h5{
   margin-top: 10px;

@@ -36,3 +36,11 @@ nav{
     height: 400px;
 }
 
+
+.card  h4 {
+    color: var(--card-text-color) !important;
+  }
+  .card  h5,
+  .card-text {
+    color: var(--card-text-color) !important;
+  }
