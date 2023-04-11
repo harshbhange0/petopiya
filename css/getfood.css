@@ -45,3 +45,19 @@ nav{
   .card-text {
     color: var(--card-text-color) !important;
   }
+
+  
+   
+  
+
+
+
+
+
+.about-section {
+    padding: 50px;
+    text-align: center;
+    color: white;
+    background-color: #ffc107;
+}
+
