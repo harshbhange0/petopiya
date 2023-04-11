@@ -18,10 +18,10 @@ nav{
 .inner{
     overflow: hidden;
 }
-.inner img {
+.inner .classic-hight {
     transition: all 1.5s ease;
 }
-.inner:hover img{
+.inner:hover .classic-hight{
     transform: scale(1.08);
 }
 .addbttn-conaiter{
@@ -30,10 +30,18 @@ nav{
     margin-bottom: 15px;
     
 }
-.card{
+.foodcard{
     height: 450px;
 }
 #small-card{
     height: 400px;
 }
 
+
+.card  h4 {
+    color: var(--card-text-color) !important;
+  }
+  .card  h5,
+  .card-text {
+    color: var(--card-text-color) !important;
+  }
