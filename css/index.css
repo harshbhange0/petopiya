@@ -250,6 +250,54 @@ footer li :hover {
   height: 230px !important;
 }
 
+.inner{
+  overflow: hidden;
+}
+.inner .classic-hight {
+  transition: all 1.5s ease;
+}
+.inner:hover .classic-hight{
+  transform: scale(1.08);
+}
+.addbttn-conaiter{
+  display: flex;
+  justify-content: space-evenly ;
+  margin-bottom: 15px;
+  
+}
+.foodcard{
+  height: 450px;
+}
+#small-card{
+  height: 400px;
+}
+footer h3{
+  font-size: 35px !important;
+}
+footer h5{
+  font-size: 35px !important;
+}
+
+footer li, a, h6{
+  text-decoration: none;
+  font-size:20px;
+
+}
+.footer-a:hover{
+  transition: all .5s ease;
+  color: #ffb406 !important;
+}
+footer .card{
+  background-color: var(--nav-background-color) !important ;
+  border: none !important;
+}
+footer{
+  background-color: var(--nav-background-color) !important;
+}
+footer .card a h6:hover{
+  transition: all .5s ease;
+  color: #ffb406;
+}
 @media (max-width: 576px) {
   .highlite-header-text {
     font-size: 30px !important;
