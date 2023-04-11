@@ -1,8 +1,4 @@
 const birdImagesArray = [
-  "../image/birds/birds-img/Bald-Eagle.jpg",
-  "../image/birds/birds-img/blue-jay.jpg",
-  "../image/birds/birds-img/cardinal.jpg",
-  "../image/birds/birds-img/eastern-bluebird.jpg",
   "../image/birds/birds-img/Great-Horned-Owl.jpg",
   "../image/birds/birds-img/kingfisher.jpg",
   "../image/birds/birds-img/Mallard-Duck.jpg",
@@ -16,10 +12,6 @@ const birdImagesArray = [
   "../image/birds/birds-img/Woodpecker.webp",
 ];
 const birdNameArray = [
-    "Bald Eagle",
-    "blue jay",
-    "cardinal",
-    "eastern bluebird",
     "Great Horned Owl",
     "hummingbird",
     "kingfisher",
@@ -36,10 +28,6 @@ const birdNameArray = [
   ];
 
 const imgSrcArray = [
-  "bird-img1",
-  "bird-img2",
-  "bird-img3",
-  "bird-img4",
   "bird-img5",
   "bird-img6",
   "bird-img7",
@@ -50,10 +38,6 @@ const imgSrcArray = [
   "bird-img12",
 ];
 const txtIdNameArray = [
-  "bird-txt1",
-  "bird-txt2",
-  "bird-txt3",
-  "bird-txt4",
   "bird-txt5",
   "bird-txt6",
   "bird-txt7",

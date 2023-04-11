@@ -1,43 +1,31 @@
 const catImagesArray = [
-   "../image/cat-img/australian-mist-cat.webp", 
-   "../image/cat-img/bengalcat1.jpg", 
+   "../image/cat-img/australian-mist-cat.webp",  
    "../image/cat-img/Burmilla-cat.webp", 
    "../image/cat-img/caracat.webp", 
-   "../image/cat-img/chausiecat1.jpg", 
    "../image/cat-img/Cheetohcat1.jpg", 
    "../image/cat-img/Exostic-shorthair-cat.webp", 
    "../image/cat-img/highlander-cat.webp", 
-   "../image/cat-img/Ocicat-cat.webp", 
-   "../image/cat-img/pixie-bob-cat.webp", 
+   "../image/cat-img/Ocicat-cat.webp",  
    "../image/cat-img/Pixiebobcat1.jpg", 
-   "../image/cat-img/Ragdoll-cat.webp", 
-   "../image/cat-img/savannahcat1.jpg", 
+   "../image/cat-img/Ragdoll-cat.webp",  
    "../image/cat-img/serengeti-cat.webp", 
    "../image/cat-img/toyger-cat.jpg", 
   ];
   const catNameArray = [
      "Australian MistCat",
-     "Bengalcat",
      "Burmilla Cat",
      "Caracat",
-     "Chausie Cat",
      "Cheetoh Cat",
      "Exostic Shorthair Cat",
      "Highlander Cat",
      "Ocicat Cat",
      "Pixie Bob Cat",
-     "Pixie Bob Cat",
      "Ragdoll Cat",
-     "Savannah Cat",
      "Serengeti Cat",
      "Toyger Cat"
     ];
   
   const imgSrcArray = [
-    "cat-img1",
-    "cat-img2",
-    "cat-img3",
-    "cat-img4",
     "cat-img5",
     "cat-img6",
     "cat-img7",
@@ -48,10 +36,6 @@ const catImagesArray = [
     "cat-img12",
   ];
   const txtIdNameArray = [
-    "cat-txt1",
-    "cat-txt2",
-    "cat-txt3",
-    "cat-txt4",
     "cat-txt5",
     "cat-txt6",
     "cat-txt7",

@@ -1,6 +1,7 @@
 .about-section {
     padding: 50px;
     text-align: center;
-    color: white;
-    background-color: #f3dfa3;
-}
+    color:var(--color) !important;
+    background-color:var(--footer-background-color) !important;
+    border-top: 1px solid var(--color) !important;
+  }
