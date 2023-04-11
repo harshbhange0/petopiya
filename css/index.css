@@ -40,6 +40,7 @@ body {
   --text-shadow-color: #000000;
   --highlite-text-container-img: url() !important;
   transition: all 1.5s ease;
+  letter-spacing: .1rem;
 }
 .card .card-body h4 {
   color: var(--card-text-color) !important;

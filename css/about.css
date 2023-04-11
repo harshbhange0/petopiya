@@ -50,7 +50,8 @@ a img{
   width: 35px;
 }
 .card{
-  width: 18rem;
+  width: 20rem;
+  box-shadow: 0 0  10px 0 gainsboro  !important;
 }
 h5{
   margin-top: 10px;
