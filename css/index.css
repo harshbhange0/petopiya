@@ -294,6 +294,11 @@ footer{
   border: none !important;
 }
 
+.odp-container a:hover {
+  transition: all .5s ease;
+  color: #ffb406 !important;
+}
+
 footer .card a h6:hover{
   transition: all .5s ease;
   color: #ffb406;
